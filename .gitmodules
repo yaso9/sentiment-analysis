@@ -1,0 +1,3 @@
+[submodule "twitter-data-collector"]
+	path = twitter-data-collector
+	url = https://github.com/yaso9/twitter-data-collector.git
