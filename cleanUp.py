@@ -12,7 +12,7 @@ twitterLinkRe = re.compile('https://t.co/[a-zA-Z\d]+')
 
 tweets = cur.execute('SELECT * FROM tweets')
 for tweet in tweets:
-    cleanedTweet = (hashtagRe.sub('', mentionRe.sub('', twitterLinkRe.sub('', tweet[2]))))
+    cleanedTweet = (hashtagRe.sub('', mentionRe.sub('', twitterLinkRe.sub('', tweet[2])))).strip()
     cleanedTweets.append((cleanedTweet, tweet[0]))
 
 cur.close()
