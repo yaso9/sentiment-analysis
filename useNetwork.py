@@ -17,9 +17,9 @@ def use_neural_network(input):
     saver = tf.train.Saver()
     with tf.Session() as sess:
         sess.run(tf.initialize_all_variables())
-        print input
         saver.restore(sess, './model.ckpt')
-        output = prediction.eval(feed_dict={x: input})
+
+        return sess.run(tf.argmax(prediction.eval(feed_dict={x: input}), 1)) + 1
 
 
 print use_neural_network(sys.argv[1])

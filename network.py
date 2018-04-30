@@ -5,8 +5,8 @@ import sqlite3
 conn = sqlite3.connect('twitter-data-collector/database.sqlite')
 
 NNodesHL1 = 500
-NNodesHL2 = 1000
-NNodesHL3 = 1500
+NNodesHL2 = 500
+NNodesHL3 = 500
 
 c = conn.cursor()
 hashtags = c.execute('SELECT * FROM hashtags').fetchall()
