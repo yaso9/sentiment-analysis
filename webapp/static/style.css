@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html {
+	background-color: #f7f7f7;
+}
+
+#title {
+	font-family: "Indie Flower";
+	font-weight: 400;
+	font-style: italic;
+	margin: 5px 10px;
+	border-bottom: 3px solid orangered;
+	display: inline-block;
+}
+
+/*
+#title::after {
+	content: '';
+	width: 90%;
+	height: 1px;
+	margin: 0 auto;
+	border: 2px solid orangered;
+}
