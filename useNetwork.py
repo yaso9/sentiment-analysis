@@ -1,4 +1,5 @@
 import sys
+import os
 import numpy as np
 import tensorflow as tf
 from network import neural_network_model
@@ -17,9 +18,6 @@ def use_neural_network(input):
     saver = tf.train.Saver()
     with tf.Session() as sess:
         sess.run(tf.initialize_all_variables())
-        saver.restore(sess, './model.ckpt')
+        saver.restore(sess, os.path.dirname(__file__) + '/model.ckpt')
 
         return sess.run(tf.argmax(prediction.eval(feed_dict={x: input}), 1)) + 1
-
-
-print use_neural_network(sys.argv[1])

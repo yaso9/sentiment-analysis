@@ -1,8 +1,9 @@
 import sys
+import os
 import numpy as np
 import tensorflow as tf
 import sqlite3
-conn = sqlite3.connect('twitter-data-collector/database.sqlite')
+conn = sqlite3.connect(os.path.dirname(__file__) + '/twitter-data-collector/database.sqlite')
 
 NNodesHL1 = 500
 NNodesHL2 = 500
