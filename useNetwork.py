@@ -18,6 +18,6 @@ def use_neural_network(input):
     saver = tf.train.Saver()
     with tf.Session() as sess:
         sess.run(tf.initialize_all_variables())
-        saver.restore(sess, os.path.dirname(__file__) + '/model.ckpt')
+        saver.restore(sess, os.path.dirname(os.path.abspath(__file__)) + '/model.ckpt')
 
         return sess.run(tf.argmax(prediction.eval(feed_dict={x: input}), 1)) + 1

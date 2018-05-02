@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 from network import neural_network_model
 import sqlite3
-conn = sqlite3.connect(os.path.dirname(__file__) + '/twitter-data-collector/database.sqlite')
+conn = sqlite3.connect(os.path.dirname(os.path.abspath(__file__)) + '/twitter-data-collector/database.sqlite')
 
 NEpochs = 1000
 
@@ -60,7 +60,7 @@ def train_neural_network(x):
         accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
         print('Accuracy:', accuracy.eval({x: dataset['tweets'], y: dataset['sentiment']}))
 
-        print 'Saved model in ' + saver.save(sess, os.path.dirname(__file__) + '/model.ckpt')
+        print 'Saved model in ' + saver.save(sess, os.path.dirname(os.path.abspath(__file__)) + '/model.ckpt')
 
 
 train_neural_network(x)
