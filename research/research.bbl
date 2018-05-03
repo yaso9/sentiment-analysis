@@ -1,0 +1,181 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nty/global/}
+  \entry{GoldenAgeArchitecture}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Patterson},
+         familyi={P\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={Cliff},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJPDYC1}
+    \strng{fullhash}{DJPDYC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \true{singletitle}
+    \field{title}{A New Golden Age in Computer Architecture: Empowering the
+  Machine-Learning Revolution}
+    \field{journaltitle}{The Journal of Neuroscience}
+    \field{year}{2017}
+  \endentry
+
+  \entry{pitfallsML}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LR}{%
+         family={Lovelace},
+         familyi={L\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FRI}{%
+         family={Fridman-Rojas},
+         familyi={F\bibinitperiod-R\bibinitperiod},
+         given={Ilan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LRFRILR1}
+    \strng{fullhash}{LRFRILR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \true{singletitle}
+    \field{title}{New tools of the trade? The potential and pitfalls of
+  ’Machine Learning’ and ’DAGs’ to model origin-destination data}
+    \field{journaltitle}{White Rose University Consortium}
+    \field{year}{2017}
+  \endentry
+
+  \entry{MLVision}{article}{}
+    \name{author}{13}{}{%
+      {{hash=VMAT}{%
+         family={Vu},
+         familyi={V\bibinitperiod},
+         given={Mai-Anh\bibnamedelima T.},
+         giveni={M\bibinitperiod-A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Adalı},
+         familyi={A\bibinitperiod},
+         given={Tülay},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Ba},
+         familyi={B\bibinitperiod},
+         given={Demba},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Buzsáki},
+         familyi={B\bibinitperiod},
+         given={György},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Carlson},
+         familyi={C\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Heller},
+         familyi={H\bibinitperiod},
+         given={Katherine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Liston},
+         familyi={L\bibinitperiod},
+         given={Conor},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rudin},
+         familyi={R\bibinitperiod},
+         given={Cynthia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SVS}{%
+         family={Sohal},
+         familyi={S\bibinitperiod},
+         given={Vikaas\bibnamedelima S.},
+         giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WAS}{%
+         family={Widge},
+         familyi={W\bibinitperiod},
+         given={Alik\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MHS}{%
+         family={Mayberg},
+         familyi={M\bibinitperiod},
+         given={Helen\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sapiro},
+         familyi={S\bibinitperiod},
+         given={Guillermo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Dzirasa},
+         familyi={D\bibinitperiod},
+         given={Kafui},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VMAT+1}
+    \strng{fullhash}{VMATATBDBGCDHKLCRCSVSWASMHSSGDK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \true{singletitle}
+    \field{title}{A Shared Vision for Machine Learning in Neuroscience}
+    \field{journaltitle}{The Journal of Neuroscience}
+    \field{year}{2017}
+  \endentry
+\endsortlist
+\endinput
