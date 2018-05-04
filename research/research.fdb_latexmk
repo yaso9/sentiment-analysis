@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex research"] 1525390214 "research.aux" "research.bbl" "research" 1525390241
+["bibtex research"] 1525406844 "research.aux" "research.bbl" "research" 1525407698
   "/usr/share/texlive/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1473891670 63002 075c3f13314e99e71e6ff0a472a98980 ""
   "citations.bib" 1525350602 959 03873f30bdae0da76f2b5ceaef0e1b23 ""
-  "research-blx.bib" 1525390241 306 bb01e627c95af7c09d9edc2681311014 ""
-  "research.aux" 1525390241 2962 85e20dfff57c78ee4cc30c6b4a86cc33 ""
+  "research-blx.bib" 1525407614 306 bb01e627c95af7c09d9edc2681311014 ""
+  "research.aux" 1525407615 3086 17c3bedecbb511d37569740bb09c8aff ""
   (generated)
-  "research.blg"
   "research.bbl"
-["pdflatex"] 1525390240 "research.tex" "research.pdf" "research" 1525390241
+  "research.blg"
+["pdflatex"] 1525407614 "research.tex" "research.pdf" "research" 1525407698
   "/home/yahya/.cache/texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1504998685 3508030 f8a3f388ecd6cd1de153b2f69b87c780 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -85,15 +85,15 @@
   "Neural_Network.png" 1525316390 71010 c25dc099519d3867e9bbbcef87b46155 ""
   "Neuron.png" 1525316364 37300 c99b501fedfadab56e7a858ed7e97109 ""
   "Process.png" 1525316498 19767 bb072032d05f3d803da8aa4c89c2f13f ""
-  "research.aux" 1525390241 2962 85e20dfff57c78ee4cc30c6b4a86cc33 ""
-  "research.bbl" 1525390214 5028 8a4dd244e93d32ebd77278907b1c2618 "bibtex research"
-  "research.run.xml" 1525390241 2584 93ca8077adccbd8b474df61371d65ff4 ""
-  "research.tex" 1525390239 7950 c2cca42068017276da0380ae2a496a6c ""
-  "research.toc" 1525390241 1069 8d0c2743a7e4e669b673250493112d56 ""
+  "research.aux" 1525407615 3086 17c3bedecbb511d37569740bb09c8aff ""
+  "research.bbl" 1525406844 5028 8a4dd244e93d32ebd77278907b1c2618 "bibtex research"
+  "research.run.xml" 1525407615 2584 93ca8077adccbd8b474df61371d65ff4 ""
+  "research.tex" 1525407674 8685 31dadfbb854889f98493961c99295f82 ""
+  "research.toc" 1525407615 1158 16069a839b3dc1a97f49bfa6eb9dfa73 ""
   (generated)
-  "research.aux"
-  "research.log"
   "research-blx.bib"
-  "research.toc"
   "research.run.xml"
+  "research.aux"
   "research.pdf"
+  "research.toc"
+  "research.log"

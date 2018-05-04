@@ -19,3 +19,5 @@
 \contentsline {subsection}{\numberline {5.2}Collecting Data}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Training}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Conclusion}{7}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.9)  3 MAY 2018 18:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.9.9)  3 MAY 2018 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,12 +565,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write5
 \openout5 = `research.toc'.
 
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
  [1]
 [2] <Neuron.png, id=14, 660.96938pt x 438.13687pt>
 File: Neuron.png Graphic file (type png)
@@ -582,13 +576,13 @@ Package pdftex.def Info: Neuron.png used on input line 41.
 File: Neural_Network.png Graphic file (type png)
 
 <use Neural_Network.png>
-Package pdftex.def Info: Neural_Network.png used on input line 49.
+Package pdftex.def Info: Neural_Network.png used on input line 52.
 (pdftex.def)             Requested size: 361.34999pt x 260.61128pt.
  [3] [4 <./Neuron.png> <./Neural_Network.png>]
 <Process.png, id=25, 531.48563pt x 287.57437pt>
 File: Process.png Graphic file (type png)
  <use Process.png>
-Package pdftex.def Info: Process.png used on input line 66.
+Package pdftex.def Info: Process.png used on input line 69.
 (pdftex.def)             Requested size: 289.07999pt x 156.41557pt.
  [5] [6 <./Process.png>]
 Missing character: There is no ‚ in font ptmr7t!
@@ -615,12 +609,12 @@ Here is how much of TeX's memory you used:
  13447 multiletter control sequences out of 15000+600000
  32021 words of font info for 65 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 44i,6n,64p,1460b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,6n,64p,1439b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on research.pdf (8 pages, 170296 bytes).
+Output written on research.pdf (8 pages, 171261 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
